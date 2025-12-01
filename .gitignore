@@ -1,16 +1,22 @@
 # Unity
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
+Library/
+Temp/
+Obj/
+Build/
 UserSettings/
-ProjectSettings/GraphicsSettings.asset
-ProjectSettings/QualitySettings.asset
-Assets/AssetStoreTools*
-Packages/com.unity.collab-proxy/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
 
 # OS junk
 .DS_Store
