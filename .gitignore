@@ -1,0 +1,28 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/QualitySettings.asset
+Assets/AssetStoreTools*
+Packages/com.unity.collab-proxy/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Rider / VSCode / JetBrains
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.user
+*.pidb
+*.booproj
+*.svd
