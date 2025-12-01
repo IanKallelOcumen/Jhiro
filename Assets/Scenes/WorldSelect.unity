@@ -668,8 +668,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -824.29816, y: 425}
-  m_SizeDelta: {x: 136.5594, y: 138.0611}
+  m_AnchoredPosition: {x: -366.3, y: 155.5}
+  m_SizeDelta: {x: 52.0917, y: 52.6645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190102311
 MonoBehaviour:
@@ -1048,6 +1048,7 @@ GameObject:
   - component: {fileID: 474055057}
   - component: {fileID: 474055056}
   - component: {fileID: 474055055}
+  - component: {fileID: 474055059}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -1071,8 +1072,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 813, y: -45.9}
-  m_SizeDelta: {x: 222.1557, y: 224.5986}
+  m_AnchoredPosition: {x: 294.23538, y: -13.100004}
+  m_SizeDelta: {x: 84.7431, y: 85.675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474055055
 MonoBehaviour:
@@ -1169,6 +1170,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474055053}
   m_CullTransparentMesh: 1
+--- !u!114 &474055059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474055053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dcb0fc6f286a754bb232167487abd71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIFloat
+  amplitudeY: 10
+  speedY: 0.6
+  rotAmplitude: 1.5
+  rotSpeed: 0.35
+  scaleAmplitude: 0.01
+  scaleSpeed: 0.5
+  useUnscaledTime: 1
+  enableBump: 0
+  bumpHeight: 12
+  bumpOutTime: 0.1
+  bumpBackTime: 0.22
+  bumpRotate: 2
+  enableHover: 1
+  hoverScaleAmount: 1.1
+  hoverRotAmount: 5
+  hoverAnimSpeed: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,6 +1927,7 @@ GameObject:
   - component: {fileID: 1039452561}
   - component: {fileID: 1039452560}
   - component: {fileID: 1039452563}
+  - component: {fileID: 1039452564}
   m_Layer: 5
   m_Name: PrevButton
   m_TagString: Untagged
@@ -1921,8 +1951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -781.5, y: -45.9}
-  m_SizeDelta: {x: 222.1557, y: 224.5986}
+  m_AnchoredPosition: {x: -314, y: -13.1}
+  m_SizeDelta: {x: 84.7431, y: 85.675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1039452560
 MonoBehaviour:
@@ -2019,6 +2049,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonPressAnimator
   scaleOnPress: 0.8
+--- !u!114 &1039452564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039452557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dcb0fc6f286a754bb232167487abd71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIFloat
+  amplitudeY: 10
+  speedY: 0.6
+  rotAmplitude: 1.5
+  rotSpeed: 0.35
+  scaleAmplitude: 0.01
+  scaleSpeed: 0.5
+  useUnscaledTime: 1
+  enableBump: 0
+  bumpHeight: 12
+  bumpOutTime: 0.1
+  bumpBackTime: 0.22
+  bumpRotate: 2
+  enableHover: 1
+  hoverScaleAmount: 1.1
+  hoverRotAmount: 5
+  hoverAnimSpeed: 10
 --- !u!1 &1168344737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3036,7 +3094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
